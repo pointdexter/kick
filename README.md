@@ -23,4 +23,8 @@ So what to do next:
 
 + then adapt the kickstarter to it
 
-and learn about branches and how to follow your changes locally with git...then push it.
+and learn about branches and how to follow your changes locally with git...then push it.    
+
+* * *    
+
+
