@@ -12,3 +12,12 @@ What I understand so far
 
 also git wtf
 git publish-branch repository   (eg git@github.com:pointdexter/kick.git  for the repository)
+
+
+So what to do next:
+
+set a local wolfcms and git init 
+
+then adapt the kickstarter to it
+
+and learn about branches and how to follow your changes locally with git...then push it.
