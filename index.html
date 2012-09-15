@@ -34,11 +34,11 @@
           <h1>Kick</h1>
           <p>kickstart </p>
           <hr>
-          <span class="credits left">Project maintained by <a href="https://github.com/pointdexter">pointdexter</a></span>
+          <span class="credits left">Project maintained by <a href="https://github.com/pointdexter">daniel anast</a></span>
           <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="http://twitter.com/#!/michigangraham">mattgraham</a></span>
         </div>
 
-        <h3>Welcome to GitHub Pages.</h3>
+        <h3>Kickstarter Wolfcms integration</h3>
 
 <p>I am impressed. You have different branches within your local folder. You just switch branches and you see another set of files. So I gather this is where you can make things pretty.</p>
 
@@ -49,9 +49,18 @@ $ git checkout gh-pages
 
 <p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
 
-<h3>Designer Templates</h3>
+<h3>Steps to setting up git and keeping sync</h3>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+<pre><code>$ mkdir project
+$ cd project
+$ git init
+$ git status
+$ git add .   or git add 'files' 
+$ git commit -a -m 'initial commit'  this commits all changes and adds comment
+$ git pull kick kick
+$ git push kick kick
+$ git publish-branch  branch repository   this is a script not sure how usefull yet
+</code></pre>
 
 <h3>Rather Drive Stick?</h3>
 
